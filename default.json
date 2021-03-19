@@ -1,0 +1,37 @@
+{
+  "config_version": "0.1",
+  "osu_path": "",
+  "current_server": 0,
+  "servers": [
+    {
+      "display_name": "Gatari",
+      "display_url": "osu.gatari.pw",
+      "frontend_url": "https://osu.gatari.pw",
+      "devserver_arg": "gatari.pw"
+    },
+    {
+      "display_name": "Kurikku",
+      "display_url": "kurikku.pw",
+      "frontend_url": "https://kurikku.pw",
+      "devserver_arg": "kurikku.pw"
+    },
+    {
+      "display_name": "Akatsuki",
+      "display_url": "akatsuki.pw",
+      "frontend_url": "https://akatsuki.pw",
+      "devserver_arg": "akatsuki.pw"
+    },
+    {
+      "display_name": "Shizofrenia",
+      "display_url": "osu.shizofrenia.pw",
+      "frontend_url": "https://osu.shizofrenia.pw",
+      "devserver_arg": "shizofrenia.pw"
+    },
+    {
+      "display_name": "Iteki",
+      "display_url": "iteki.pw",
+      "frontend_url": "https://iteki.pw",
+      "devserver_arg": "iteki.pw"
+    }
+  ]
+}
