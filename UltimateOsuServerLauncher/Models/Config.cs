@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Net;
 using Newtonsoft.Json;
 using UltimateOsuServerLauncher.Utils;
 
@@ -31,7 +32,16 @@ namespace UltimateOsuServerLauncher.Models
                 new Server("Kurikku", "kurikku.pw", "https://kurikku.pw", "kurikku.pw"),
                 new Server("Akatsuki", "akatsuki.pw", "https://akatsuki.pw", "akatsuki.pw"),
                 new Server("Shizofrenia", "osu.shizofrenia.pw", "https://osu.shizofrenia.pw", "shizofrenia.pw"),
+                new Server("Iteki", "iteki.pw", "https://iteki.pw", "iteki.pw")
             };
+        }
+
+        public static Config FromRemote()
+        {
+            var wc = new WebClient();
+            var str = wc.DownloadString("https://raw.githubusercontent.com/Airkek/ultimate-osu-server-launcher/main/default.json");
+
+            return JsonConvert.DeserializeObject<Config>(str);
         }
 
         public void Save() => File.WriteAllText(FileName, JsonConvert.SerializeObject(this, Formatting.Indented));
@@ -42,8 +52,15 @@ namespace UltimateOsuServerLauncher.Models
             
             if (!File.Exists(FileName))
             {
-                cfg = new Config();
-                cfg.SetDefault();
+                try
+                {
+                    cfg = FromRemote();
+                }
+                catch
+                {
+                    cfg = new Config();
+                    cfg.SetDefault();
+                }
                 cfg.Save();
             }
             else

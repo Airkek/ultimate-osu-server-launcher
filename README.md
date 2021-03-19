@@ -7,3 +7,4 @@ launcher that allows you to switch between variety of osu! servers.
 - [Kurikku](https://kurikku.pw)
 - [Akatsuki](https://akatsuki.pw)
 - [Shizofrenia](https://osu.shizofrenia.pw)
+- [Iteki](https://iteki.pw)
