@@ -47,6 +47,7 @@ namespace UltimateOsuServerLauncher.Models
 
         public static Config FromRemote()
         {
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
             var wc = new WebClient();
             var str = wc.DownloadString("https://raw.githubusercontent.com/Airkek/ultimate-osu-server-launcher/main/default.json");
 
@@ -65,7 +66,7 @@ namespace UltimateOsuServerLauncher.Models
                 {
                     cfg = FromRemote();
                 }
-                catch
+                catch (Exception e)
                 {
                     cfg = new Config();
                     cfg.SetDefault();
