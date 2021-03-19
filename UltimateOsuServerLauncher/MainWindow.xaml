@@ -1,7 +1,7 @@
 ﻿<Window x:Class="UltimateOsuServerLauncher.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Switcher" Height="140" Width="310" WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True" Background="Transparent"
+        Title="Switcher" Height="160" Width="310" WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True" Background="Transparent"
         WindowStartupLocation="CenterScreen">
     <Grid x:Name="mainGrid">
         <Grid.Effect>
@@ -11,7 +11,9 @@
         <Grid x:Name="layoutGrid" Background="White" Margin="10">
             <Grid.RowDefinitions>
                 <RowDefinition Height="30"/>
+                <RowDefinition Height="10"/>
                 <RowDefinition Height="30"/>
+                <RowDefinition Height="10"/>
                 <RowDefinition Height="34"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
@@ -49,21 +51,18 @@
             </Grid>
             
 
-            <Label x:Name="statusLabel" Content = "Shizofrenia" Grid.Row="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+            <Label x:Name="currentServerLabel" Content = "ServerName" Grid.Row="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
                    FontSize="16" Foreground="#FF424242"/>
             
-            <Button x:Name="prevServerButton" Content="&lt;" Grid.Row="1" 
-                    IsEnabled="False"
-                    HorizontalAlignment="Left" Width="30" Style="{StaticResource ResourceKey=awesomeButton}"
-                    Foreground="#FF424242"/>
+            <Button x:Name="prevServerButton" Content="&lt;" Grid.Row="2" Click="PrevServerButton_OnClick"
+                    HorizontalAlignment="Left" Width="30" Style="{StaticResource ResourceKey=awesomeButton}" FontWeight="Bold"/>
             
-            <Button x:Name="nextServerButton" Content="&gt;" Grid.Row="1" 
-                    HorizontalAlignment="Right" Width="30" Style="{StaticResource ResourceKey=awesomeButton}"
-                    Foreground="#0F52BA"/>
+            <Button x:Name="nextServerButton" Content="&gt;" Grid.Row="2" Click="NextServerButton_OnClick"
+                    HorizontalAlignment="Right" Width="30" Style="{StaticResource ResourceKey=awesomeButton}" FontWeight="Bold"/>
             
-            <Button x:Name="launchButton" Content="Запустить сервер" Grid.Row="2" Style="{StaticResource ResourceKey=awesomeButton}" Click="LaunchButton_OnClickButton_Click" />
+            <Button x:Name="launchButton" Content="Launch osu!" Grid.Row="4" Style="{StaticResource ResourceKey=awesomeButton}" Click="LaunchButton_OnClickButton_Click" />
             
-            <TextBlock x:Name="websiteText" Grid.Row="3" Text="osu.shizofrenia.pw" HorizontalAlignment="Right" VerticalAlignment="Center" 
+            <TextBlock x:Name="websiteText" Grid.Row="5" Text="FrontendUrl" HorizontalAlignment="Right" VerticalAlignment="Center" 
                        TextDecorations="Underline" Margin="4" Cursor="Hand" MouseLeftButtonDown="websiteText_MouseLeftButtonDown"/>
 
         </Grid>

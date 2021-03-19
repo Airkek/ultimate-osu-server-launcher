@@ -37,12 +37,16 @@ namespace UltimateOsuServerLauncher
         {
             if (!IsLastServer)
                 CurrentServerIndex++;
+            
+            Config.Save();
         }
         
         public void PreviousServer()
         {
             if (!IsFirstServer)
                 CurrentServerIndex--;
+            
+            Config.Save();
         }
     }
 }
