@@ -4,6 +4,12 @@
   "current_server": 0,
   "servers": [
     {
+      "display_name": "Bancho",
+      "display_url": "osu.py.sh",
+      "frontend_url": "https://osu.ppy.sh",
+      "devserver_arg": "ppy.sh"
+    },
+    {
       "display_name": "Gatari",
       "display_url": "osu.gatari.pw",
       "frontend_url": "https://osu.gatari.pw",
@@ -22,10 +28,40 @@
       "devserver_arg": "akatsuki.pw"
     },
     {
+      "display_name": "EZPPFarm",
+      "display_url": "ez-pp.farm",
+      "frontend_url": "https://ez-pp.farm",
+      "devserver_arg": "ez-pp.farm"
+    },
+    {
+      "display_name": "RealistikOsu",
+      "display_url": "ussr.pl",
+      "frontend_url": "https://ussr.pl",
+      "devserver_arg": "ussr.pl"
+    },
+    {
+      "display_name": "Astellia",
+      "display_url": "astellia.club",
+      "frontend_url": "https://astellia.club",
+      "devserver_arg": "astellia.club"
+    },
+    {
       "display_name": "Shizofrenia",
       "display_url": "osu.shizofrenia.pw",
       "frontend_url": "https://osu.shizofrenia.pw",
       "devserver_arg": "shizofrenia.pw"
+    },
+    {
+      "display_name": "Debian",
+      "display_url": "debian.moe",
+      "frontend_url": "https://debian.moe",
+      "devserver_arg": "debian.moe"
+    },
+    {
+      "display_name": "Horizon",
+      "display_url": "lemres.de",
+      "frontend_url": "https://elemres.de",
+      "devserver_arg": "lemres.de"
     },
     {
       "display_name": "Iteki",
