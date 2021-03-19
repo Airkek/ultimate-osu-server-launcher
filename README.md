@@ -13,3 +13,4 @@ launcher that allows you to switch between variety of osu! servers.
 - [Debian](https://debian.moe)
 - [Horizon](https://lemres.de)
 - [Iteki](https://iteki.pw)
+- [Sakuru](https://sakuru.pw)

@@ -40,7 +40,8 @@ namespace UltimateOsuServerLauncher.Models
                 new Server("Shizofrenia", "osu.shizofrenia.pw", "https://osu.shizofrenia.pw", "shizofrenia.pw"),
                 new Server("Debian", "debian.moe", "https://debian.moe", "debian.moe"),
                 new Server("Horizon", "lemres.de", "https://elemres.de", "lemres.de"),
-                new Server("Iteki", "iteki.pw", "https://iteki.pw", "iteki.pw")
+                new Server("Iteki", "iteki.pw", "https://iteki.pw", "iteki.pw"),
+                new Server("Sakuru", "sakuru.pw", "https://sakuru.pw", "sakuru.pw")
             };
         }
 
