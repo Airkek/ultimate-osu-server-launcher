@@ -12,8 +12,6 @@ namespace UltimateOsuServerLauncher
     {
         private ServerLauncher _launcher;
 
-        private static Brush ActiveButtonBrush = new SolidColorBrush(Color.FromArgb(0xFF, 0x0F, 0x52, 0xBA));
-        private static Brush InactiveButtonBrush = Brushes.Gray;
         public MainWindow()
         {
             _launcher = new ServerLauncher();
@@ -30,8 +28,8 @@ namespace UltimateOsuServerLauncher
             prevServerButton.IsEnabled = !_launcher.IsFirstServer;
             nextServerButton.IsEnabled = !_launcher.IsLastServer;
 
-            prevServerButton.Foreground = _launcher.IsFirstServer ? InactiveButtonBrush : ActiveButtonBrush;
-            nextServerButton.Foreground = _launcher.IsLastServer ? InactiveButtonBrush : ActiveButtonBrush;
+            prevServerButton.Content = _launcher.IsFirstServer ? " " : "<";
+            nextServerButton.Content = _launcher.IsLastServer ? " " : ">";
         }
 
         private void closeButton_Click(object sender, RoutedEventArgs e)
