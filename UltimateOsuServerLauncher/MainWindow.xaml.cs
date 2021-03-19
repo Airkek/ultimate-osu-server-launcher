@@ -42,7 +42,7 @@ namespace UltimateOsuServerLauncher
 
         private void LaunchButton_OnClickButton_Click(object sender, RoutedEventArgs e)
         {
-            throw new System.NotImplementedException();
+            _launcher.Launch();
         }
 
         private void websiteText_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)

@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using Newtonsoft.Json;
+using UltimateOsuServerLauncher.Utils;
 
 namespace UltimateOsuServerLauncher.Models
 {
@@ -9,6 +10,9 @@ namespace UltimateOsuServerLauncher.Models
         
         [JsonProperty("config_version")]
         public string Version;
+
+        [JsonProperty("osu_path")] 
+        public string OsuPath;
 
         [JsonProperty("current_server")] 
         public int ServerIndex;
@@ -20,6 +24,7 @@ namespace UltimateOsuServerLauncher.Models
         {
             Version = "0.1";
             ServerIndex = 0;
+            OsuPath = string.Empty;
             Servers = new[]
             {
                 new Server("Gatari", "osu.gatari.pw", "https://osu.gatari.pw", "gatari.pw"),

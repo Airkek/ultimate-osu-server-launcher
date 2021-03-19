@@ -57,6 +57,7 @@
         <Compile Include="Models\Config.cs" />
         <Compile Include="Models\Server.cs" />
         <Compile Include="ServerLauncher.cs" />
+        <Compile Include="Utils\OsuHelper.cs" />
         <Page Include="MainWindow.xaml">
             <Generator>MSBuild:Compile</Generator>
             <SubType>Designer</SubType>

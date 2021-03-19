@@ -1,5 +1,7 @@
-﻿using System.IO.Pipes;
+﻿using System.Diagnostics;
+using System.IO.Pipes;
 using UltimateOsuServerLauncher.Models;
+using UltimateOsuServerLauncher.Utils;
 
 namespace UltimateOsuServerLauncher
 {
@@ -12,6 +14,12 @@ namespace UltimateOsuServerLauncher
         {
             get => Config.ServerIndex;
             set => Config.ServerIndex = value;
+        }
+        
+        private string OsuPath 
+        {
+            get => Config.OsuPath;
+            set => Config.OsuPath = value;
         }
 
         public Server CurrentServer => Servers[CurrentServerIndex];
@@ -47,6 +55,17 @@ namespace UltimateOsuServerLauncher
                 CurrentServerIndex--;
             
             Config.Save();
+        }
+
+        public void Launch()
+        {
+            if (!OsuHelper.IsValidOsuPath(Config.OsuPath))
+            {
+                OsuPath = OsuHelper.GetOsuFilePath();
+                Config.Save();
+            }
+            
+            Process.Start(OsuPath, "-devserver " + CurrentServer.DevServerArgument);
         }
     }
 }
