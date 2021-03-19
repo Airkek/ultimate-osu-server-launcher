@@ -7,7 +7,6 @@ launcher that allows you to switch between variety of osu! servers.
 - [Gatari](https://osu.gatari.pw)
 - [Kurikku](https://kurikku.pw)
 - [Akatsuki](https://akatsuki.pw)
-- [EZPPFarm](https://ez-pp.farm)
 - [RealistikOsu](https://ussr.pl)
 - [Astellia](https://astellia.club)
 - [Shizofrenia](https://osu.shizofrenia.pw)

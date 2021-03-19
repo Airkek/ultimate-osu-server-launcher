@@ -28,12 +28,6 @@
       "devserver_arg": "akatsuki.pw"
     },
     {
-      "display_name": "EZPPFarm",
-      "display_url": "ez-pp.farm",
-      "frontend_url": "https://ez-pp.farm",
-      "devserver_arg": "ez-pp.farm"
-    },
-    {
       "display_name": "RealistikOsu",
       "display_url": "ussr.pl",
       "frontend_url": "https://ussr.pl",
