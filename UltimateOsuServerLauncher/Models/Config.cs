@@ -29,7 +29,7 @@ namespace UltimateOsuServerLauncher.Models
             OsuPath = string.Empty;
             Servers = new[]
             {
-                new Server("Bancho", "osu.py.sh", "https://osu.ppy.sh", "ppy.sh"),
+                new Server("Bancho", "osu.ppy.sh", "https://osu.ppy.sh", "ppy.sh"),
                 new Server("Gatari", "osu.gatari.pw", "https://osu.gatari.pw", "gatari.pw"),
                 new Server("Kurikku", "kurikku.pw", "https://kurikku.pw", "kurikku.pw"),
                 new Server("Akatsuki", "akatsuki.pw", "https://akatsuki.pw", "akatsuki.pw"),

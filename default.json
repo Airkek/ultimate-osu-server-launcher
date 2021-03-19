@@ -5,7 +5,7 @@
   "servers": [
     {
       "display_name": "Bancho",
-      "display_url": "osu.py.sh",
+      "display_url": "osu.ppy.sh",
       "frontend_url": "https://osu.ppy.sh",
       "devserver_arg": "ppy.sh"
     },
