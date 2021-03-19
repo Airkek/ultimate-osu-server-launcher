@@ -1,7 +1,7 @@
 ﻿<Window x:Class="UltimateOsuServerLauncher.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Switcher" Height="160" Width="310" WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True" Background="Transparent"
+        Title="Ultimate Osu Server Launcher" Height="160" Width="310" WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True" Background="Transparent"
         WindowStartupLocation="CenterScreen">
     <Grid x:Name="mainGrid">
         <Grid.Effect>
@@ -23,7 +23,7 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="30"/>
                 </Grid.ColumnDefinitions>
-                <Label x:Name="Label" Content="UltimateOsuServerSwitcher" VerticalContentAlignment="Center" FontSize="16" Foreground="White" TextOptions.TextFormattingMode="Display" />
+                <Label x:Name="Label" Content="UltimateOsuServerLauncher" VerticalContentAlignment="Center" FontSize="16" Foreground="White" TextOptions.TextFormattingMode="Display" />
                 <Button x:Name="closeButton" Grid.Column="1" Style="{StaticResource ResourceKey=flatButton}" Background="#0F52BA" Click="closeButton_Click">
                     <Grid>
                         <Rectangle Height="20" Width="2" Fill="White" RenderTransformOrigin="0.5,0.5" >
