@@ -40,12 +40,6 @@
       "devserver_arg": "astellia.club"
     },
     {
-      "display_name": "Shizofrenia",
-      "display_url": "osu.shizofrenia.pw",
-      "frontend_url": "https://osu.shizofrenia.pw",
-      "devserver_arg": "shizofrenia.pw"
-    },
-    {
       "display_name": "Debian",
       "display_url": "debian.moe",
       "frontend_url": "https://debian.moe",
