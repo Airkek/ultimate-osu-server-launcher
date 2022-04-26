@@ -52,12 +52,6 @@
       "devserver_arg": "lemres.de"
     },
     {
-      "display_name": "Iteki",
-      "display_url": "iteki.pw",
-      "frontend_url": "https://iteki.pw",
-      "devserver_arg": "iteki.pw"
-    },
-    {
       "display_name": "Sakuru",
       "display_url": "sakuru.pw",
       "frontend_url": "https://sakuru.pw",
