@@ -34,18 +34,6 @@
       "devserver_arg": "ussr.pl"
     },
     {
-      "display_name": "Astellia",
-      "display_url": "astellia.club",
-      "frontend_url": "https://astellia.club",
-      "devserver_arg": "astellia.club"
-    },
-    {
-      "display_name": "Debian",
-      "display_url": "debian.moe",
-      "frontend_url": "https://debian.moe",
-      "devserver_arg": "debian.moe"
-    },
-    {
       "display_name": "Horizon",
       "display_url": "lemres.de",
       "frontend_url": "https://lemres.de",
