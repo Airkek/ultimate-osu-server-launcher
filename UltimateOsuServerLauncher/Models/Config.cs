@@ -32,7 +32,7 @@ namespace UltimateOsuServerLauncher.Models
                 new Server("Bancho", "osu.ppy.sh", "https://osu.ppy.sh", "ppy.sh"),
                 new Server("Gatari", "osu.gatari.pw", "https://osu.gatari.pw", "gatari.pw"),
                 new Server("Kurikku", "kurikku.pw", "https://kurikku.pw", "kurikku.pw"),
-                new Server("Akatsuki", "akatsuki.pw", "https://akatsuki.pw", "akatsuki.pw"),
+                new Server("Akatsuki", "akatsuki.gg", "https://akatsuki.gg", "akatsuki.gg"),
                 new Server("EZPPFarm", "ez-pp.farm", "https://ez-pp.farm", "ez-pp.farm"),
                 new Server("Ripple", "ripple.moe", "https://ripple.moe", "ripple.moe"),
                 new Server("RealistikOsu", "ussr.pl", "https://ussr.pl", "ussr.pl"),
