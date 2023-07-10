@@ -6,7 +6,7 @@ launcher that allows you to switch between variety of osu! servers.
 - [Bancho](https://osu.ppy.sh)
 - [Gatari](https://osu.gatari.pw)
 - [Kurikku](https://kurikku.pw)
-- [Akatsuki](https://akatsuki.pw)
+- [Akatsuki](https://akatsuki.gg)
 - [RealistikOsu](https://ussr.pl)
 - [EzPPFarm](https://ez-pp.farm)
 - [Ripple](https://ripple.moe)
