@@ -56,6 +56,24 @@
       "display_url": "sakuru.pw",
       "frontend_url": "https://sakuru.pw",
       "devserver_arg": "sakuru.pw"
+    },
+    {
+      "display_name": "Okayu.me",
+      "display_url": "osu.okayu.me",
+      "frontend_url": "https://osu.okayu.me",
+      "devserver_arg": "osu.okayu.me"
+    },
+    {
+      "display_name": "Halcyon",
+      "display_url": "halcyon.moe",
+      "frontend_url": "https://halcyon.moe",
+      "devserver_arg": "halcyon.moe"
+    },
+    {
+      "display_name": "727.xyz",
+      "display_url": "seventwentyseven.xyz",
+      "frontend_url": "https://seventwentyseven.xyz",
+      "devserver_arg": "seventwentyseven.xyz"
     }
   ]
 }
