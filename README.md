@@ -12,3 +12,8 @@ launcher that allows you to switch between variety of osu! servers.
 - [Ripple](https://ripple.moe)
 - [Horizon](https://lemres.de)
 - [Sakuru](https://sakuru.pw)
+- [Okayu.me](https://osu.okayu.me)
+- [Halcyon](https://https://halcyon.moe)
+- [727.xyz](https://seventwentyseven.xyz)
+
+(Actually a discarted project, comment for revive the project)
